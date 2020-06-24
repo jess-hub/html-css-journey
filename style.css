@@ -1,23 +1,30 @@
 
+html, body{
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
 h1 {
     color: #EEEEEE;  
     font-family: Arial; 
     background-color: #19628A;
-    margin-top:-10px;
-    
+    margin-top:-10px;   
 }
 
 img{
-    src: world.png ; width: 150px; float: right; margin-top:-25px; margin-right:400px;
+      width: 180px; float: right; margin-top:-25px; margin-right:190px;
 }
 
 .container{
     background-color: #19628A;
-    width: 100%;
+    width: 85%;
     border: #19628A;
     padding-left: 50px;
     margin-left: -15px;
-    
+    font-size: 20px;
+    position: relative;
+    margin-top: -10px;
 }
  p {
      color: #EEEEEE;
@@ -31,7 +38,7 @@ img{
 .flex-container > form, table{
     display: inline-flex;
     align-items: flex-end;
-    width: 100%;
+    width: 85%;
     
 }
 form
@@ -94,9 +101,10 @@ tbody>tr>:nth-child(1){
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 85%;
     background-color: #333333;
     color: #eeeeee;
     text-align: center;
     font-family: Arial;
+    padding: 30px;
 }
